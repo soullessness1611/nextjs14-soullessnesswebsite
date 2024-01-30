@@ -1,0 +1,13 @@
+:root {
+  --bg: #d3d3d3;
+  --btn: #1e3551;
+  --btn-hover: #fff;
+}
+
+* {
+  margin: 5px 5px;
+}
+
+body {
+  background-color: var(--bg);
+}

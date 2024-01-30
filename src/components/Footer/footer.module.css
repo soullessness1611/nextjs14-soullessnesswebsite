@@ -1,0 +1,13 @@
+.container {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background: #1e3551;
+}
+
+.foot__text {
+  font-size: 12px;
+  font-weight: 500;
+  color: #ddd;
+  padding-bottom: 10px;
+}

@@ -1,0 +1,58 @@
+.logo {
+  height: 60px;
+  width: 60px;
+  margin-right: 10px;
+  margin-left: 65px;
+  margin-top: 0;
+  margin-bottom: 0;
+  border-radius: 50%;
+  border: 2px solid #ffffff40;
+  backdrop-filter: blur(15px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+
+.logoText1 {
+  padding-left: 7px;
+  display: flex;
+  font-size: 16px;
+  font-weight: bold;
+  /* border: 1px solid red; */
+  align-items: center;
+  text-align: center;
+  margin-top: -10px;
+}
+
+.logoText2 {
+  display: flex;
+  font-size: 16px;
+  font-weight: bold;
+  /* border: 1px solid red; */
+  align-items: center;
+  text-align: center;
+  margin-top: -15px;
+}
+
+.alink {
+  text-decoration: none;
+}
+
+.logoText1 span {
+  background: linear-gradient(45deg, #1e3551, #bbb, Crimson);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-decoration: none;
+}
+
+.logoText2 span {
+  background: linear-gradient(45deg, #1e3551, #bbb, Crimson);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-decoration: none;
+}
+
+.navbar {
+  display: flex;
+  text-decoration: none;
+  justify-content: space-between;
+}
