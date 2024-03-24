@@ -78,7 +78,10 @@ const Home = () => {
 
       <section className={styles.section__cards}>
         <div className={styles.cards__max__width}>
-          <div className={styles.cards} style={{display: "grid", gridTemplateColumns:"1fr 1fr 1fr"}}>
+          <div
+            className={styles.cards}
+            style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr" }}
+          >
             <div className={styles.box}>
               <Image
                 src="https://fuelfit.com.sg/wp-content/uploads/2017/06/FuelFit-Tired-and-Wired_Mindfulness-Meditation.jpg"
@@ -89,7 +92,7 @@ const Home = () => {
               />
               <div>
                 <h3>Dhyāna</h3>
-                <ul style={{ marginLeft: "-45px", fontSize: "12px"}}>
+                <ul style={{ marginLeft: "-45px", fontSize: "12px" }}>
                   <li>Buddhist meditation</li>
                   <li>Pointing to the nature of the mind</li>
                   <li>Observing the mind</li>

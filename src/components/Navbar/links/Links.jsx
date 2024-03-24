@@ -13,10 +13,14 @@ const Links = () => {
     { name: "Insight", path: "/insight" },
     { name: "Books", path: "/books" },
     { name: "Blog", path: "/blog" },
-    { name: "Portfolio", path: "/portfolio" },
+    { name: "Contact", path: "/contact" },
   ];
 
   const [open, setOpen] = useState(false);
+
+  // Temp soultion session check authen
+  const session = true;
+  const isAdmin = true;
 
   return (
     <>
@@ -25,6 +29,19 @@ const Links = () => {
           {links.map((link) => (
             <NavLink key={link.name} items={link} />
           ))}
+          {session ? (
+            <>
+              {isAdmin && (
+                <NavLink
+                  key="Admin"
+                  items={{ name: "Admin", path: "/admin" }}
+                />
+              )}
+              <button className={styles.logout}>Logout</button>
+            </>
+          ) : (
+            <NavLink items={{ name: "Login", path: "/login" }} />
+          )}
         </div>
       </div>
       <FaBars
